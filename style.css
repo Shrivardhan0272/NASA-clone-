@@ -1,0 +1,1333 @@
+*{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    position: absolute;
+    top:0;
+    left:0;
+    margin:0;
+    overflow-x: hidden;
+}
+header{
+   
+ 
+
+    
+    background-color: black;
+    height:90px;
+   
+    
+}
+
+#e2,#e1 {
+  position:absolute;
+  left:-1200px;
+}
+#expp{position: relative;
+  
+    top:3px;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+#exp{display: inline-block;
+    height:40px;
+    width:120px;
+  position:absolute;
+  top:30px;
+  left:25px;
+    font-size: large;
+    padding-right: 0px;
+    
+
+    color: white;
+    background-color: black;
+    border:none;
+
+}
+.overlay{
+    position:absolute;
+    top:8rem;
+    left:0;
+
+
+}
+#select{
+    position:relative;
+    top:5rem;
+
+
+}
+video{
+    height:640px;
+    width:100vw;
+    object-fit: cover;
+    box-shadow: inset 70vh 70vh 50vh rgba(0, 0, 0, 0.597);
+}
+#exp:hover > .sidebar{
+    z-index: 2;
+    height:400px;
+    width:200px;
+    background-color: rgba(255, 255, 255, 0.322);
+    transition:10s 10s 2s smooth;
+    position: absolute;
+}
+.sidebar{
+    height:400px;
+    width:200px;
+    background-color: rgba(255, 255, 255, 0.066);
+    z-index: -1;
+    position: relative;
+}
+#Search{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0.5px solid rgba(255, 255, 255, 0.241);
+    position:absolute;
+    top:30px;
+    left:135px;
+}
+#pic{
+    height:60px;
+    width:60px; 
+   position:absolute;
+   left:100vh;
+   top:10px
+}
+#news{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    position: absolute;
+    left:140vh;
+    top:30px;
+}
+#media{ background-color: black;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    position: absolute;
+    left:165vh;
+    top:30px
+
+} 
+main{
+    margin-bottom: 4rem;
+    height:600px;
+    margin-top: 0px;
+    background-size: cover;
+    background:url("https://www.nasa.gov/wp-content/uploads/2024/09/plume-flyby-v008.mp4");
+    box-shadow: inset 70vh 70vh 50vh rgba(0, 0, 0, 0.597);
+  
+
+}
+.sh1{
+    color:white;
+    text-decoration:none;
+    font-size: 15px;
+    font-weight: 100px;
+}
+.main1{
+    font-size: 72px;
+    padding-top: 100px;
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.main12{
+    font-size: 80px;
+    padding-top: 20vh;
+    color: white;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.main2{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.main21{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding-left: 0px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+#b2{
+    background-color: rgb(227, 46, 46);
+    color: white;
+    border:none;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    margin-left: 1.25rem;
+    padding:0.5rem 0.75rem;
+    font-weight: 700;
+    
+}
+#b2:hover{
+    background-color: rgb(169, 33, 33);
+    color: white;
+    border:none;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+    margin-left: 1.25rem;
+    padding:0.5rem 0.75rem;
+    font-weight: 700;
+    
+   
+}
+#hr{display: inline-block;
+    width: 29%;
+    margin-left: 20px;
+    margin-top: 30px;
+  
+    background-color: rgba(255, 255, 255, 0.302);
+    height:1px;
+    border:none;
+   
+}
+.hr1{display: inline-block;
+    width: 29%;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.302);
+   
+    height:1px;
+    border:none;
+   
+}
+.hr2{display: inline-block;
+    width: 29%;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color:  rgba(255, 255, 255, 0.302);
+
+    height:1px;
+    border:none;
+   
+}
+#nasa{width:100%;
+    height:70px;
+    color:white;
+    text-decoration: none;
+    display:grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows:40px 40px ;
+    padding-left:20px;
+    justify-content: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+}
+.h6{
+    margin: 0px 0px;
+    height:30px;
+    padding:0px;
+    font-weight: 100;
+    font-size: 0.75rem;
+}
+.live{
+
+    background-color: black;
+    color: white;
+    border:1px solid red;
+    font-weight: 400;
+    height: 14px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.live:hover{
+    background-color: rgb(211, 29, 29);
+    color: white;
+    border:1px solid red;
+    font-weight: 400;
+    height: 15px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.live1{
+
+    background-color: black;
+    color: white;
+    border:1px solid red;
+    font-weight: 400;
+    height: 14px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.live1:hover{
+    background-color: rgb(211, 29, 29);
+    color: white;
+    border:1px solid red;
+    font-weight: 400;
+    height: 15px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+footer{
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2023/01/webb-tarantula-neb.png?resize=2000,1561);
+    background-size: cover;
+    
+
+}
+.footer1{
+    font-size: 50px;
+    color:white;
+    padding: 100px 0px 0px 0px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    height: 200px;
+    margin-left: 80px;
+
+}
+
+.footer2{
+    color:white;
+    font-size: medium;
+    margin-left: 80px;
+    margin-top: 0px;
+
+}
+#sign{
+    color:white;
+    font-size: larger;
+    background: none;
+    margin-left: 110px;
+    border: none;
+    font-weight: bold;
+    padding-bottom: 200px;
+}
+#circle{height: 20px;
+    width:20px;
+    color:white;
+    background-color: red;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    padding:1px;
+
+    
+}
+#circle:hover{height: 20px;
+    width:20px;
+    color:white;
+    background-color: rgb(164, 29, 29);
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    padding:1px;
+}
+    
+#policy{
+   
+    
+    color: white;
+    text-decoration:underline;
+}
+#exp1{border:1px solid rgba(255, 255, 255, 0.350);
+    border-radius: 50%;
+    background-color:black;
+    color: white;
+    margin-right: 20px;
+    height:14px;
+    width:14px;
+    padding-left: 0px;
+    display: inline-block;
+    
+
+    
+
+}
+#exp1:active{border:1px solid rgba(255, 255, 255, 0.350);
+    border-radius: 50%;
+    background-color:black;
+    color: white;
+    margin-right: 20px;
+    height:14px;
+    width:14px;
+    padding-left: 0px;
+    display: inline-block;
+    transform: rotate(90deg);
+    
+
+    
+    
+
+}
+#feature{
+    display:inline-grid;
+    grid-template-columns: 900px 520px;
+    justify-content: first baseline;
+    
+
+}
+#s6{
+    justify-self: end;
+    margin-top:30px;
+    color:black;
+
+    text-decoration: none;
+}
+#circle1{height: 20px;
+    width:20px;
+    color:white;
+    background-color: red;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    transform: rotate(-45deg);
+    padding-left:3px;
+    padding-bottom: 2px;
+    
+
+    
+}
+#circle1:hover{height: 20px;
+    width:20px;
+    color:white;
+    background-color: rgb(164, 29, 29);
+    margin-left: 5px;
+    border-radius: 50%;
+    border: none;
+    transform: rotate(-45deg);
+    padding-left:3px;
+    padding-bottom: 2px;
+  
+}
+#feapic{display:grid;
+    height:450px;
+    width:1500px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(9,1fr);
+    margin:0px 0px;
+    row-gap: 15px;
+    column-gap: 15px;
+    
+
+}
+.pic1{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/updated-nasas-spacex-crew-9-image.png?resize=1200,676);
+    grid-column: 2/span 6;
+    grid-row: 1/span 8;
+    justify-content: space-between;
+    align-content: end;
+    color: white;
+    padding:8px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: inset 50px 20px 200px black;
+}
+.pic1:active{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/updated-nasas-spacex-crew-9-image.png?resize=1200,676);
+    grid-column: 2/span 6;
+    grid-row: 1/span 8;
+    display:flex;
+    justify-content: space-between;
+    align-content: end;
+    color: white;
+    padding:8px;
+    border: 5px solid rgb(27, 98, 231);;
+    box-shadow: inset 50px 20px 200px black;
+    flex-direction: column;
+}
+#h1{
+    margin-left:100px;
+    font-size:50px;
+
+}
+.pic2{background-size: cover;
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2024/08/and-field1-new-flat-2-cont-final.jpg);
+    grid-column: 8/span 3;
+    grid-row: 1/span 8;
+    align-content: end;
+    justify-content: space-between;
+    color: white;
+    padding:8px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: inset 50px 20px 200px black;
+}
+.pic2:active{background-size: cover;
+    background-image: url();
+    grid-column: 8/span 3;
+    grid-row: 1/span 8;
+    align-content: end;
+    justify-content: space-between;
+    color: white;
+    padding:8px;
+    flex-direction: column;
+    display:flex;
+    border: 5px solid rgb(27, 98, 231);;
+    box-shadow: inset 50px 20px 200px black;
+}
+.pic3{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/sassa-b-.jpg?resize=1200,800);
+    grid-column: 11/span 3;
+    grid-row: 1/span 4;
+    align-content: end;
+    justify-content: space-between;
+    color: white;
+    padding:8px;
+    flex-direction: column;
+    display:flex;
+    box-shadow: inset 50px 20px 200px black;
+}
+
+.pic3:active{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/sassa-b-.jpg?resize=1200,800);
+    grid-column: 11/span 3;
+    grid-row: 1/span 4;
+    align-content: end;
+    justify-content: space-between;
+    color: white;
+    padding:8px;
+    display:flex;
+    border: 5px solid rgb(27, 98, 231);;
+    box-shadow: inset 50px 20px 200px black;
+    flex-direction: column;
+    
+}
+.pic4{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/1-pia26386-d2024-0717-rl0018059-med-e1724859153254.jpg?w=1024);
+    grid-column: 11/span 3;
+    grid-row: 5/span 4;
+    align-content: end;
+    justify-content: space-between;
+    color: white;
+    padding:8px;
+    display:flex;
+    flex-direction: column;
+}
+.pic4:active{background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/1-pia26386-d2024-0717-rl0018059-med-e1724859153254.jpg?w=1024);
+    grid-column: 11/span 3;
+    grid-row: 5/span 4;
+    align-content: end;
+    justify-content: center;
+    color: white;
+    padding:8px;
+    display:flex;
+    flex-direction: column;
+    border: 5px solid rgb(27, 98, 231);
+
+}
+#extra{width:96rem;
+    height:7rem;
+    display:grid;
+    grid-template-rows: 100%;
+    grid-template-columns:  repeat(14,1fr) ;
+    margin-left:100px;
+   
+    
+}
+
+
+
+.g1{height:5.3rem;
+    width:5.3rem;
+     background-color: black;
+    border-radius:50%;
+    grid-column:1 / span 1; 
+    background-size: cover;
+    background-image:url( https://www.nasa.gov/wp-content/uploads/2024/08/updated-nasas-spacex-crew-9-image.png?resize=200,200);
+}
+.data1{
+    grid-column:2 /span 2;
+}
+.g2{ height:5.3rem;
+    width:5.3rem;
+    background-color: black;
+    border-radius:50%;
+    grid-column:4 / span 1; 
+    background-size: cover;
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2024/08/and-field1-new-flat-2-cont-final.jpg);
+}
+.data2{
+    grid-column:5 / span 2;
+    grid-row: 1;
+}
+.g3{height:5.3rem;
+    width:5.3rem;
+     background-color: black;
+    border-radius:50%;
+    grid-column:7 / span 1; 
+    grid-row: 1/ span 1;
+    background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/intuitive-machines-cp-22.png?resize=200,200);
+}
+.data3{
+    grid-column:8/span 2;
+    grid-row:1;
+}
+.g4{height:5.3rem;
+    width:5.3rem;
+     background-color: black;
+    border-radius:50%;
+    grid-column:10/ span 1; 
+    grid-row: 1 / span 1;
+    background-size: cover;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/08/1-pia26349-fig-a-icenode-sb-16.jpg?resize=200,200);
+}
+.data4{
+    grid-column:11/span 2;
+    grid-row:1;
+}
+
+
+
+
+.x{margin-top: 0;
+    margin-bottom:5px;
+ 
+}
+#flexi{
+    display:grid;
+    width:1314px;
+    height:930px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(2,1fr) ;
+    row-gap:20px;
+    column-gap: 20px;
+    margin-left: 100px;
+    
+  
+    
+}
+.picture1{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1200,675);
+    box-shadow: inset 20px 20px 50px black;
+ 
+    
+}  
+.picture1:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2022/08/jsc2022e046413_orig.jpg?resize=1200,675);
+    box-shadow:inset 30px 30px 100px black;
+}  
+.picture2{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg);
+    box-shadow: inset 20px 20px 50px black;
+}    
+    
+.picture2:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2021/03/topic-humans-in-space.jpg);
+    box-shadow:inset 30px 30px 100px black;
+}    
+    
+.picture3{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp);
+    box-shadow: inset 20px 20px 50px black;
+}    
+.picture3:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/06/icescapepondsample-lrg-jpg.webp);
+    box-shadow:inset 30px 30px 100px black;
+}    
+    
+.picture4{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://smd-cms.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg);
+    box-shadow: inset 20px 20px 50px black;
+}   
+.picture4:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://smd-cms.nasa.gov/wp-content/uploads/2023/06/solar-system-illustration-16x9-1.jpg);
+    box-shadow:inset 30px 30px 100px black;
+}  
+    
+.picture5{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg);
+    box-shadow: inset 20px 20px 50px black;
+}    
+.picture5:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/09/ngc5068-1-flat-final.jpg);
+    box-shadow:inset 30px 30px 100px black;
+}
+#you{
+    margin:2.8rem;
+}    
+ .in{
+    font-size:0.92rem;
+    color:rgba(255, 255, 255, 0.726);
+    margin:0.9rem;
+    font-weight: 300;
+    text-decoration:none;
+ }
+ .in:hover{
+    font-size:0.92rem;
+    color:rgba(255, 255, 255, 0.47);
+    margin:1rem;
+    font-weight: 300;
+  
+ }
+    
+.picture6{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png);
+    box-shadow: inset 20px 20px 50px black;
+}    
+    
+.picture6:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://science.nasa.gov/wp-content/uploads/2023/07/stsci-01h44ay5ztcv1npb227b2p650j-temp.png);
+    box-shadow:inset 30px 30px 100px black;
+}    
+    
+.picture7{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg);
+    box-shadow: inset 20px 20px 50px black;
+}    
+.picture7:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2022/12/aero-topic-card.jpg);
+    box-shadow:inset 30px 30px 100px black;
+}    
+.picture8{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png);
+    box-shadow: inset 20px 20px 50px black;
+} 
+.picture8:hover{display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding:30px;
+    font-size: 30px;
+    background-size:cover;
+    color: white;
+    background-image:url(https://www.nasa.gov/wp-content/uploads/2022/12/nasa_technology1.png);
+    box-shadow:inset 30px 30px 100px black;
+} 
+#picI{
+    height:60px;
+    width:60px;
+    margin-left:60px;
+    margin-top: 50px;
+}   
+#newnasa{
+     width:1440px;
+    height:400px;
+    display: inline-grid;
+    grid-template-columns: 400px 150px 200px 200px 200px;
+    grid-template-rows: repeat(10,1fr);
+    
+    background-color: black;
+    row-gap: 4x;
+    column-gap: 4px;
+}
+
+.Grid:hover{ 
+    color:white;
+    text-decoration: underline;
+   
+}
+#t1{color: white;
+   margin-left: 60px;
+    grid-row: 3/span 2;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}  
+#t2{margin-left: 60px;
+    grid-row: 6/span 2;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+}  
+#t3{ color: white;
+    margin-left: 60px;
+    grid-row: 9/span 1 ;
+    font-size: 15px;
+    font-weight: 600;text-decoration: none;
+
+}
+#t3:hover{margin-left: 60px;
+    grid-row: 9/span 1 ;
+    text-decoration:dashed ;
+    color: white;
+
+}
+#t4{margin-left: 60px;
+    grid-row: 10/span 1;
+    color: white;
+
+}
+#t5{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 3/span 1;
+    grid-column: 3;
+}
+#t6{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 4/span 1;
+    grid-column: 3;
+    
+}  
+#t7{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 5/span 1;
+    grid-column: 3;
+   
+}  
+#t8{grid-column: 3;
+    grid-row: 6/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}  
+#t9{grid-column: 3;
+    grid-row: 7/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}  
+#t10{grid-column: 4;
+    grid-row: 3/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}  
+#t11{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 4/span 1;
+    grid-column: 4;
+}
+#t12{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 5/span 1;
+    grid-column: 4;
+    
+}  
+#t13{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 6/span 1;
+    grid-column: 4;
+   
+}  
+#t14{grid-column: 4;
+    grid-row: 7/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}  
+#t15{grid-column: 5;
+    grid-row: 3/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}  
+#t16{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 4/span 1;
+    grid-column: 5;
+}
+#t17{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 5/span 1;
+    grid-column: 5;
+    
+}  
+#t18{color: white;
+    font-size: 15px;
+    font-weight: 100;
+    grid-row: 6/span 1;
+    grid-column: 5;
+   
+}  
+#t19{grid-column: 5;
+    grid-row: 7/span 1;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+}
+#ss{
+    color:rgba(255, 255, 255, 0.671);
+    font-size: 15px;
+    grid-column: 6;   
+    grid-row:3;
+    margin-left: 80px;
+   
+}
+#sss{display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-column: 6;
+    grid-row: 4;
+    margin-left:75px;
+    margin-right:30px;
+   
+ 
+    
+}#imgi{
+    position:relative;
+    left:5px;
+    top:5px;
+}
+#imgi1{
+    position:relative;
+    left:5px;
+    top:4px;
+}
+#imgi2{
+    position:relative;
+    left:8px;
+    top:4px;
+    font-weight:200;
+}
+#img1{display: inline-block;
+    font-size:16px;
+    height:26px;
+    width:26px;
+    border-radius: 50%;
+   color: white;
+   background-color:#5d5b5ba0;
+   
+  
+    
+    
+}
+#img2{display: inline-block;
+    height:26px;
+    width:26px;
+    border-radius: 50%;
+    color: white;
+    background-color:#5d5b5ba0;
+   font-size:18px;
+   
+}
+#img3{display: inline-block;
+    height:26px;
+    width:26px;
+    border-radius: 50%;
+    color: white;
+    background-color:#5d5b5ba0;
+    font-size:15px;
+}
+#img4{display: inline-block;
+    height:26px;
+    width:26px;
+    border-radius: 50%;
+    color: white;
+    background-color:#5d5b5ba0;
+   font-size:15px;
+
+}
+#social1{
+    grid-row: 5;
+    grid-column:6 ;
+    font-size: 12px;
+    color:white;
+    margin-left: 80px;
+    letter-spacing: 1px;
+}
+#social2{
+    grid-row: 6;
+    grid-column:6 ;
+    font-size: 12px;
+    color:white;
+    margin-left: 80px;}
+
+#horiz{
+   width:1380px;
+   margin: 0px 50px 0px 60px;
+   padding: 0px;
+   height: 1px;
+   border:none;
+    background-color:rgba(255, 255, 255, 0.73)
+    
+}
+#end{
+    height: 600px;
+
+     background-color: black;
+}
+#shri{ box-shadow: inset 80vh 40vh 50vh rgba(0, 0, 0, 0.837);;
+    height:800px;
+    width:100vw;
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/09/53919465954-3fbe084a70-o.jpg?resize=2000,1333);
+    background-size: cover;
+}
+@media (min-width:300px ) and (max-width:420px) {
+    body{
+        width:350px;
+        position: absolute;
+     left:30px;
+      background-color: black;
+      box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.51);
+       
+    }
+    #stellar{
+        height:90px;
+        width:310px;
+      
+    }
+    #exp, #exp1 , #news ,#media , #live, #Search{
+       display:none;
+        
+    }
+
+   #pic{
+    position: absolute;
+    left:125px;
+    top:10px;
+    margin:0px
+   } 
+   main{
+    height:600px;
+    width:310px;
+   
+    
+   }
+   
+   .main1{visibility: visible;
+    transform:scale(0.9,0.8);
+    padding-top:0px;
+    font-size: 30px;
+    position: absolute;
+    top:100px;
+   
+    margin-bottom: 10px;
+   }
+   .main2{visibility: visible;
+    transform:scale(0.9,0.7);
+    right:10px;
+    font-size: 15px;
+    position: absolute;
+    top:170px;
+   
+
+   }
+   #b2,#b2:hover{
+    visibility: visible;
+    position: relative;
+    top:260px;
+    left:70px;
+    transform:scaleX(1.5);
+    font-size: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 3px;
+  
+   }
+   #hr{
+    position: relative;
+    top:225px;
+    transform:scaleX(4);
+    left:100px
+   }
+   .hr1{margin:0px;
+    position: relative;
+    top:280px;
+    transform:scaleX(4);
+    left:25px
+   }
+   .hr2{margin:0px;
+    position: relative;
+    top:350px;
+    transform:scaleX(4);
+    right:40px
+   }
+   
+#e1,#e2 {
+   color: rgba(255, 255, 255, 0.512);
+   position: relative;
+   left:265px;
+   top:20px;
+   font-size: 20px;
+   font-weight: 500;
+  }
+  #e1{
+    left:10px
+  }
+  #nasa #l1{
+    position: absolute;
+    top:430px;
+    font-size: 10px;
+    left:40px;
+  }
+  #nasa #l2{
+    position: absolute;
+    top:500px;
+    font-size: 10px;
+    left:40px;
+  }
+  #nasa #l3{
+    position: absolute;
+    top:570px;
+    font-size: 10px;
+    left:40px
+  }
+  #s1 {
+    position: absolute;
+    top:440px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    left:40px;
+    width:250px;
+    height:50px;
+
+  }
+  #s2{
+    position: absolute;
+    top:510px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    left:40px;
+    width:250px;
+    height:50px;
+
+
+  }
+  #s3{
+    position: absolute;
+    top:580px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    left:40px;
+    width:250px;
+    height:50px;
+
+
+  }
+  #circle1{
+    transform:scale(0.8,0.8);
+    transform: rotate(-45deg);
+
+
+  }
+  #circle1:hover{
+    transform:scale(0.8,0.8);
+    transform: rotate(-45deg);
+
+  }
+ #h1{
+    font-size:20px;
+    width:30vh;
+    display:inline;
+    margin:0;
+    padding-top:20px;
+    padding-left:60px;
+    color:white
+  }
+  #flexi{width:45vh;
+    height:3300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    left:100px;
+    margin:0px;
+    align-items: center;
+    color:white;
+   position:relative;
+   top:10rem;
+    padding:0;
+  }
+  .picture1,.picture2,.picture3,.picture4,.picture5,.picture6,.picture7,.picture8{
+    height: 400px;
+    width:180px;
+    font-size: 15px;
+    font-weight: 100;
+    box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.466);
+    
+  }
+  
+
+
+  #end{
+    display:none;
+  }
+  #feature{position: relative;
+    display:inline;
+   
+    display: flex;
+    flex-direction: column;
+    height:100px;
+    width:300px;
+    margin:0;
+    font-size:15px;
+    width:30vh;
+   
+
+    padding-top:20px;
+   
+  }
+  #feapic{
+    display: flex;
+    flex-direction: column;
+    width:45vh;
+    height:2000px;
+    align-items: center;
+   
+  }
+  .x{
+    height:400px;
+   
+  }
+   .y{
+   display: none;
+   
+  }
+   #pra{position: relative;
+    right:-30px;
+     top:15rem;
+ 
+    font-size: 15px;
+    font-weight: 700;
+    top:0px;
+    text-decoration: underline;
+    color:#fff;
+   
+   
+  }
+  footer{position:relative;
+    margin: 0;
+    right: 30px;
+    top:40px
+  }
+  .footer1,.footer2{position: relative;
+    
+    margin: 0;
+
+    padding:0;
+    transform:scale(0.7,0.7);
+    width:300px
+  }
+  .footer1{
+    font-size: 40px;
+    height: 120px;
+  }
+  .footer2{
+    top:0px
+  }
+  #sign{
+    margin: 0;
+    font-size: 10px;
+    padding-left: 45px;
+  }
+  #s6{
+   
+    margin-top:30px;
+    color:white;
+    font-size: 15px;
+    
+    text-decoration: none;
+}
+}
